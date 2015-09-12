@@ -8,9 +8,9 @@ The design uses SMD components (except for the LED's that are throughhole). The 
 
 ## Pictures
 
-![PCB Rendered](/home/spacekookie/Documents/Electronics/christmas_bauble/export/pcb_rendered1.png  "PCB Rendered")
+![PCB Rendered](export/pcb_rendered1.png  "PCB Rendered")
 
-![PCB Raw](/home/spacekookie/Documents/Electronics/christmas_bauble/export/pcb_raw.png  "PCB Raw")
+![PCB Raw](export/pcb_raw.png  "PCB Raw")
 
 
 ## Partlist
