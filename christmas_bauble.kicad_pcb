@@ -16,7 +16,7 @@
   (title_block
     (title "LED Christmas Bauble")
     (date 2015-09-12)
-    (rev 1.1)
+    (rev 2)
     (comment 1 "Adding coin battery and switching to SMD components")
   )
 
@@ -72,8 +72,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFEFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x01030_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -1840,7 +1840,7 @@
     (fp_line (start -1.99898 23.50008) (end -1.09982 21.20138) (layer F.SilkS) (width 0.15))
   )
 
-  (gr_text "Kookies Christmas Bauble\nRevision 1.1\nSep 2015" (at 59.75 92) (layer F.SilkS)
+  (gr_text "Kookies Christmas Bauble\nRevision 2\nSep 2015" (at 59.75 92) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_circle (center 94 48) (end 97 48) (layer Edge.Cuts) (width 0.15))

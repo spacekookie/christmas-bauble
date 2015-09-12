@@ -4,9 +4,16 @@ A jolly christmas decoration on a PCB. Hoo hoo hoo!
 It uses a 555 timer and a shift register + two buttons to generate patterns that are then displayed on a ring of simple LED's on the outside.
 The perfect thing to hang off your christmas tree in the jolly season (I know I'm early...) :)
 
-The design uses SMD components (except for the LED's that are throughhole).
+The design uses SMD components (except for the LED's that are throughhole). Unfortunately there are a few Vias required because all the SMD pads are on the front and some wires need to be bridged.
 
-Parts I considered:
+## Pictures
+
+![PCB Rendered](/home/spacekookie/Documents/Electronics/christmas_bauble/export/pcb_rendered1.png  "PCB Rendered")
+
+![PCB Raw](/home/spacekookie/Documents/Electronics/christmas_bauble/export/pcb_raw.png  "PCB Raw")
+
+
+## Partlist
 
 Battery Holder: http://www.mouser.de/ProductDetail/Keystone-Electronics/3012TR/?qs=sGAEpiMZZMtT9MhkajLHrixYIYDZwOfD%2fKquWGKQDng%3d
 
