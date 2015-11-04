@@ -4,7 +4,9 @@ A jolly christmas decoration on a PCB. Hoo hoo hoo!
 It uses a 555 timer and a shift register + two buttons to generate patterns that are then displayed on a ring of simple LED's on the outside.
 The perfect thing to hang off your christmas tree in the jolly season (I know I'm early...) :)
 
-The design uses SMD components (except for the LED's that are throughhole). The original schematic and layout was done by Ashley Mills (https://github.com/staropram). Unfortunately there are a few Vias required because all the SMD pads are on the front and some wires need to be bridged.
+The design uses SMD components (except for the LED's that are throughhole). The original schematic and layout was done by Ashley Mills (https://github.com/staropram). **The board requires only one layer**! It can thus be made at home (if the apropriate tools for cutting the PCB are present).
+
+Check out my blog article [here](http://spacekookie.de/hardware/jolly-christmas-decoration/) for details :)
 
 ## Pictures
 
