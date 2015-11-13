@@ -1,6 +1,6 @@
-update=Sat 12 Sep 2015 19:29:20 CEST
+update=22/05/2015 07:44:53
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -60,5 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/spacekookie/Documents/Electronics/libraries/kookie_logic_symbols
-LibName31=/home/spacekookie/Documents/Electronics/libraries/christmas_bauble
