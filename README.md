@@ -8,6 +8,8 @@ The design uses SMD components (except for the LED's that are throughhole). The 
 
 Check out my blog article [here](http://spacekookie.de/hardware/jolly-christmas-decoration/) for details :)
 
+**The christmas bauble went into production on 17.11.2015. Unfortunately Revision 3.1 got produced, not the updated and much cooler Rev 3.2** :/ Pictures pending when I get my PCB.
+
 ## Pictures
 
 ![PCB Rendered](export/pcb_rendered_rev3.png  "PCB Rendered")
