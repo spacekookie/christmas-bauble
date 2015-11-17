@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:kookie_logic_symbols
-LIBS:christmas_bauble
 LIBS:christmas_bauble_rev3-cache
 EELAYER 25 0
 EELAYER END
@@ -561,7 +559,7 @@ U 1 1 55F746FE
 P 8900 2100
 F 0 "C1" H 8925 2200 50  0000 L CNN
 F 1 "22µF" H 8925 2000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_2225_HandSoldering" H 8938 1950 30  0001 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 8938 1950 30  0001 C CNN
 F 3 "" H 8900 2100 60  0000 C CNN
 	1    8900 2100
 	0    1    1    0   
@@ -619,7 +617,7 @@ U 1 1 55F3F116
 P 3250 3900
 F 0 "BT1" H 3350 3950 50  0000 L CNN
 F 1 "Battery" H 3350 3850 50  0000 L CNN
-F 2 "kookie_utilities:COIN_BAT_HOLDER" V 3250 3940 60  0001 C CNN
+F 2 "kookie_utilities:20mm_coin_bat_smd" V 3250 3940 60  0001 C CNN
 F 3 "" V 3250 3940 60  0000 C CNN
 	1    3250 3900
 	1    0    0    -1  
@@ -879,4 +877,21 @@ F 3 "" H 2450 2850 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2450 2700 2450 2850
+$Comp
+L Battery BT2
+U 1 1 564B077E
+P 2850 3900
+F 0 "BT2" H 2950 3950 50  0000 L CNN
+F 1 "Battery" H 2950 3850 50  0000 L CNN
+F 2 "kookie_utilities:20mm_coin_bat_smd" V 2850 3940 60  0001 C CNN
+F 3 "" V 2850 3940 60  0000 C CNN
+	1    2850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3750 2850 3700
+Connection ~ 2850 3700
+Wire Wire Line
+	2850 4050 2850 4150
+Connection ~ 2850 4150
 $EndSCHEMATC

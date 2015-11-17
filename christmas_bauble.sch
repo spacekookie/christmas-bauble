@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:christmas_bauble
 LIBS:christmas_bauble-cache
 EELAYER 25 0
 EELAYER END
@@ -1285,7 +1284,7 @@ U 1 1 55F3F116
 P 3200 5850
 F 0 "BT1" H 3300 5900 50  0000 L CNN
 F 1 "Battery" H 3300 5800 50  0000 L CNN
-F 2 "kookie_utilities:COIN_BAT_HOLDER" V 3200 5890 60  0001 C CNN
+F 2 "kookie_utilities:20mm_coin_bat_smd" V 3200 5890 60  0001 C CNN
 F 3 "" V 3200 5890 60  0000 C CNN
 	1    3200 5850
 	1    0    0    -1  
@@ -1293,11 +1292,28 @@ $EndComp
 Wire Wire Line
 	3200 5700 3200 5650
 Wire Wire Line
-	3200 5650 2550 5650
+	2550 5650 3750 5650
 Wire Wire Line
 	1650 5850 1650 6100
 Wire Wire Line
-	1650 6100 3200 6100
+	1650 6100 3750 6100
 Wire Wire Line
 	3200 6100 3200 6000
+$Comp
+L Battery BT2
+U 1 1 564B0785
+P 3750 5850
+F 0 "BT2" H 3850 5900 50  0000 L CNN
+F 1 "Battery" H 3850 5800 50  0000 L CNN
+F 2 "kookie_utilities:20mm_coin_bat_smd" V 3750 5890 60  0001 C CNN
+F 3 "" V 3750 5890 60  0000 C CNN
+	1    3750 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5650 3750 5700
+Connection ~ 3200 5650
+Wire Wire Line
+	3750 6100 3750 6000
+Connection ~ 3200 6100
 $EndSCHEMATC
