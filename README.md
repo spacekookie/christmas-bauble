@@ -16,6 +16,7 @@ Check out my blog article [here](http://spacekookie.de/hardware/jolly-christmas-
 
 ![PCB Raw](export/pcb_raw_rev3.png  "PCB Raw")
 
+![PCB Banana For Scale](export/bananaforscale.jpg "Banana for Scale!")
 
 ## Partlist
 
