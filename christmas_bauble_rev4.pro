@@ -1,4 +1,4 @@
-update=Fri 01 Jan 2016 01:40:55 CET
+update=Wed 06 Jan 2016 00:26:55 CET
 version=1
 last_client=kicad
 [general]
@@ -64,3 +64,13 @@ LibName30=/home/spacekookie/Documents/Electronics/libraries/kookielibs/logic/koo
 LibName31=/home/spacekookie/Documents/Electronics/libraries/kookielibs/ic_soc/kookie_ic_soc
 LibName32=/home/spacekookie/Documents/Electronics/libraries/kookielibs/utilities/kookie_utilities
 LibName33=/home/spacekookie/Documents/Electronics/libraries/kookielibs/christmas_bauble/christmas_bauble
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
